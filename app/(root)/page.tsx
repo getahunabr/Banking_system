@@ -20,7 +20,7 @@ const Home = async ({ searchParams: { id, page } }: SearchParamProps) => {
   const account = await getAccount({ appwriteItemId });
 
   return (
-    <section className="home">
+    <section className="home hide-horizontal-scrollbar overflow-x-auto">
       <div className="home-content">
         <header className="home-header">
           <HeaderBox
