@@ -47,7 +47,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
             </h1>
           </Link>
           <div className="mobilenav-sheet">
-            <SheetClose aschild>
+            <SheetClose asChild>
               <nav className="flex h-full flex-col gap-6 pt-16 text-white">
                 {sidebarLinks.map((item) => {
                   const isActive =
